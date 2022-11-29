@@ -453,6 +453,14 @@ section {
   font-family: "Poppins", sans-serif;
   color: #627680;
 }
+.title h2 {
+  font-size: 25px;
+  font-weight: 500;
+  padding-bottom: 0;
+  font-family: "Poppins", sans-serif;
+  color: #627680;
+}
+
 
 .section-title p {
   margin-bottom: 0;
@@ -598,6 +606,66 @@ section {
   border-radius: 15px;
   text-align: center;
   border-bottom: 3px solid #fff;
+}
+.ekstrakulikuler .ekstra {
+  padding: 15px;
+  position: relative;
+  overflow: hidden;
+  margin: 0;
+  background: #fff;
+  box-shadow: 0 10px 29px 0 rgba(68, 88, 144, 0.1);
+  transition: all 0.3s ease-in-out;
+  border-radius: 15px;
+  text-align: left;
+}
+.ekstrakulikuler .ekstra .logo img{
+  width:150px;
+  height:200px;
+  padding: 5px;
+}
+.ekstrakulikuler .ekstra .isi .title{
+  font-weight: 700;
+  margin-bottom: 10px;
+  font-size: 25px;
+}
+.ekstrakulikuler .ekstra .isi .description{
+  font-weight: 500;
+  margin-bottom: 5px;
+  font-size: 17px;
+  font-family: "Poppins";
+}
+.ekstrakulikuler .ekstra:hover{
+  transform: translate(0,-10px);
+}
+.articlee .articleee {
+  padding: 15px;
+  position: relative;
+  overflow: hidden;
+  margin: 0;
+  background: #fff;
+  box-shadow: 0 10px 29px 0 rgba(68, 88, 144, 0.1);
+  transition: all 0.3s ease-in-out;
+  border-radius: 15px;
+  text-align: left;
+}
+.articlee .articleee .logo img{
+  height:250px;
+  width:700px;
+  padding: 5px;
+}
+.articlee .articleee .isi .title{
+  font-weight: 700;
+  margin-bottom: 10px;
+  font-size: 25px;
+}
+.articlee .articleee .isi .description{
+  font-weight: 500;
+  margin-bottom: 5px;
+  font-size: 17px;
+  font-family: "Poppins";
+}
+.articlee .articleee:hover{
+  transform: translate(0,-10px);
 }
 
 .services .icon-box:hover {
@@ -1668,6 +1736,9 @@ section {
 .profil{
   border-radius:20%;
 }
+#about .icn{
+  padding:10px;
+}
 .sambutan{
   padding: 30px;
   position: relative;
@@ -1681,7 +1752,7 @@ section {
 }
 .sambutan h2{
   margin: 0 0 20px 0;
-  font-size: 48px;
+  font-size: 40px;
   font-weight: 700;
   line-height: 56px;
   color: #364146;
@@ -1690,7 +1761,7 @@ section {
 .sambutan .article{
   color: #576971;
   margin-bottom: 30px;
-  font-size: 24px;
+  font-size: 20px;
   font-family: "Roboto Condensed";
 }
 #card{
@@ -1699,11 +1770,6 @@ section {
 #artikel{
   background-image: url("http://web.smkn2kra.sch.id/images/bg-information.svg");
   border-radius: 28px;
-}
-#youtube{
-  border-radius: 30px;
-  width: 1000px;
-  height: 500px;
 }
 .perpisahan{
   padding: 30px;
@@ -1733,6 +1799,29 @@ section {
   font-family: "Poppins", sans-serif;
 }
 .perpisahan .artic{
+  color: #576971;
+  margin-bottom: 30px;
+  font-size: 20px;
+  font-family: "Roboto Condensed";
+}
+.visi{
+    padding: 30px;
+    position: relative;
+    overflow: hidden;
+    margin: 0;
+    background: #fff;
+    box-shadow: 0 10px 29px 0 rgba(68, 88, 144, 0.1);
+    transition: all 0.3s ease-in-out;
+    border-radius: 20px;
+    background-color:#ffffe;
+}
+.visi .isi{
+  color: #576971;
+  margin-bottom: 30px;
+  font-size: 18px;
+  font-family: "Roboto Condensed";
+}
+.sambutan .art{
   color: #576971;
   margin-bottom: 30px;
   font-size: 20px;
